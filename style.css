@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Section */
+#main {
+    background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+    color: #2c3e50;
+    padding: 60px 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slogan {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+    color: #5a7d9a;
+}
+
+/* Services Section */
+#services {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #ffffff, #dbefff); /* Smooth blue gradient */
+}
+
+/* Service Cards */
+.service {
+    width: 40%;
+    padding: 40px;
+    background: linear-gradient(to bottom, #4a90e2, #6bb7ff); /* Gradient effect inside the card */
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.service h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f0f7ff, #e3effb);
+}
+
+#testimonials h2 {
+    color: #4a90e2;
+}
+
+/* Testimonial Carousel */
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.testimonial-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+    width: 320px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(90, 169, 230, 0.4);
+}
+
+.testimonial-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.screenshot {
+    width: 100%;
+    max-width: 160px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section - Light, Elegant, and Modern */
+#contact {
+    background: linear-gradient(to bottom, #f8fbff, #eaf4ff); /* Soft Light Blue Gradient */
+    color: #2c3e50;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3a5a80; /* Softer blue */
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #4a6c91; /* Gentle dark blue */
+}
+
+#contact a {
+    color: #007bff; /* Professional light blue */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Slightly darker blue on hover */
+}
+
